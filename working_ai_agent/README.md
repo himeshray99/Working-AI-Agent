@@ -98,7 +98,7 @@ Edit `.env` and add credentials
 | `CLOUDFLARE_API_TOKEN` | Cloudflare API token for Workers AI |
 | `CLOUDFLARE_IMAGE_MODEL` | Cloudflare image model identifier |
 | `CLOUDFLARE_IMAGE_TIMEOUT` | Image request timeout in seconds |
-| `ENABLE_IMAGE_GENERATION` 
+| `ENABLE_IMAGE_GENERATION ` | Make it `true`|
 | `IMAGE_LIMIT` | Maximum vendor products processed for images |
 | `OUTPUT_DIR` | Default output directory |
 | `LOG_LEVEL` | Logging level, e.g. `INFO` |
