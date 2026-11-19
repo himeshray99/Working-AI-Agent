@@ -41,6 +41,26 @@ working_ai_agent/
 - Internet access for optional Tavily research and Cloudflare image generation
 - Ollama installed and running locally for LLM-based content generation; otherwise the extractive fallback is used
 
+```
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3:latest
+OLLAMA_TIMEOUT=180
+
+CLOUDFLARE_ACCOUNT_ID=your_cloudflare_account_id
+CLOUDFLARE_API_TOKEN=your_cloudflare_api_token
+CLOUDFLARE_IMAGE_MODEL=@cf/bytedance/stable-diffusion-xl-lightning
+CLOUDFLARE_IMAGE_TIMEOUT=300
+
+TAVILY_API_KEY=your_tavily_api_key
+ENABLE_IMAGE_GENERATION=true
+IMAGE_LIMIT=25
+ENABLE_COMPETITOR_RESEARCH=true
+COMPETITOR_LIMIT=25
+TAVILY_MAX_RESULTS=3
+OUTPUT_DIR=output
+LOG_LEVEL=INFO
+```
+
 ## 4. Install
 
 ### Windows (Command Prompt)
